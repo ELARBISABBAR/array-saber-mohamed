@@ -372,3 +372,121 @@ color: grey;
     text-decoration: none;
     margin: 0 35px;
 }
+
+@media (max-width:767px) {
+
+    .stats{
+        flex-direction: column;
+        gap: 1vw;
+    }
+    .image-container img{
+        width: 350px;
+    }
+    .email-input{
+        width: 180px;
+    }
+    .signup-button{
+        width: 180px;
+    }
+
+
+
+    .features-container , .features-section{
+        flex-direction: column;
+    }
+    .footer{
+        padding-top: 20px;
+        flex-direction: column;
+        gap: 1vh;
+    }
+    .social-links{
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+
+}
+
+@media (max-width:767px) {
+    body{
+        width: 100vw;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo .menu {
+        display: block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 75vw;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+    }
+    nav{
+        display: flex;
+        position: relative;
+    }
+    .links button{
+        width: 20vw;
+    }
+    .menu i , a{
+        color: #6d48e5;
+        font-size: 20px;
+    }
+    .menu a{
+        font-weight: bold;
+    }
+    .header2 button{
+        width: 40vw;
+    }
+    .sec1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header , .sec1-icons p , .sec2-title p , .dynamic p , .sec1-title p{
+        width: 100%;
+    }
+     .mobile{
+        width: 80vw;
+        height: 130vh;
+        padding: 50px 50px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+        background-color: #6d48e5;
+        position: absolute;
+        top: -20px;
+        left: -396px;
+        transition: 0.5s ease;
+    }
+    .mobile a{
+        color: white;
+    }
+    #respo:checked +.mobile {
+        left:276px;
+    }
+    .links .fa-xmark{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right:20px ;
+    }
+    .fa-xmark{
+        color: white;
+        font-size: xx-large;
+    }
+} 
